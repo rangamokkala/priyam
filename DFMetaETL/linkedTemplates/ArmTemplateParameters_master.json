@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "DFMetaETL"
+		},
+		"ls_azure_sql_db_connectionString": {
+			"value": ""
+		},
+		"ls_blobcontainer_connectionString": {
+			"value": ""
+		},
+		"ls_delete_connectionString": {
+			"value": ""
+		},
+		"ls_dev_akv_properties_typeProperties_baseUrl": {
+			"value": "https://dev-meta-akv.vault.azure.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
