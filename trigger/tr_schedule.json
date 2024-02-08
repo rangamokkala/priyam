@@ -1,0 +1,17 @@
+{
+	"name": "tr_schedule",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 15,
+				"startTime": "2024-02-08T12:25:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
