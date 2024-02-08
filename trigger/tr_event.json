@@ -1,0 +1,17 @@
+{
+	"name": "tr_event",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/silver/blobs/population_by_age.tsv",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/5f53e14b-8ed4-499c-8313-c8cf06735969/resourceGroups/dev-Meta-rg/providers/Microsoft.Storage/storageAccounts/devmeta1997",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
