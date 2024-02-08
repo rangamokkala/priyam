@@ -7,17 +7,17 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "DFMetaETL"
 		},
-		"ls_azure_sql_db_connectionString": {
+		"ls_blob_covidsa_connectionString": {
 			"type": "secureString",
-			"metadata": "Secure string for 'connectionString' of 'ls_azure_sql_db'"
+			"metadata": "Secure string for 'connectionString' of 'ls_blob_covidsa'"
 		},
-		"ls_blobcontainer_connectionString": {
+		"ls_covidadls_accountKey": {
 			"type": "secureString",
-			"metadata": "Secure string for 'connectionString' of 'ls_blobcontainer'"
+			"metadata": "Secure string for 'accountKey' of 'ls_covidadls'"
 		},
-		"ls_delete_connectionString": {
-			"type": "secureString",
-			"metadata": "Secure string for 'connectionString' of 'ls_delete'"
+		"ls_covidadls_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://covidadls1997.dfs.core.windows.net/"
 		},
 		"ls_dev_akv_properties_typeProperties_baseUrl": {
 			"type": "string",
@@ -50,14 +50,14 @@
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
 					},
-					"ls_azure_sql_db_connectionString": {
-						"value": "[parameters('ls_azure_sql_db_connectionString')]"
+					"ls_blob_covidsa_connectionString": {
+						"value": "[parameters('ls_blob_covidsa_connectionString')]"
 					},
-					"ls_blobcontainer_connectionString": {
-						"value": "[parameters('ls_blobcontainer_connectionString')]"
+					"ls_covidadls_accountKey": {
+						"value": "[parameters('ls_covidadls_accountKey')]"
 					},
-					"ls_delete_connectionString": {
-						"value": "[parameters('ls_delete_connectionString')]"
+					"ls_covidadls_properties_typeProperties_url": {
+						"value": "[parameters('ls_covidadls_properties_typeProperties_url')]"
 					},
 					"ls_dev_akv_properties_typeProperties_baseUrl": {
 						"value": "[parameters('ls_dev_akv_properties_typeProperties_baseUrl')]"
