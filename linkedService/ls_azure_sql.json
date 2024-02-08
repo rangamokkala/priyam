@@ -1,0 +1,21 @@
+{
+	"name": "ls_azure_sql",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=devmetaserver.database.windows.net;Initial Catalog=Meta-DB",
+			"servicePrincipalId": "9b94d708-6d27-4e07-89b9-eb987934deb0",
+			"servicePrincipalKey": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "ls_dev_akv",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "dev-etl-sp-secret"
+			},
+			"tenant": "0edf2cf5-9d63-4c32-a8de-121cb8e701a6"
+		}
+	}
+}

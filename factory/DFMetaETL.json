@@ -1,0 +1,9 @@
+{
+	"name": "DFMetaETL",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "642e97e0-4110-498b-ade4-6781201d004f",
+		"tenantId": "0edf2cf5-9d63-4c32-a8de-121cb8e701a6"
+	}
+}
