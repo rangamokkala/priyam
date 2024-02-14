@@ -21,7 +21,7 @@
 				"frequency": "Day",
 				"interval": 1,
 				"startTime": "2024-02-14T16:09:00",
-				"timeZone": "India Standard Time"
+				"timeZone": "UTC+12"
 			}
 		}
 	}
