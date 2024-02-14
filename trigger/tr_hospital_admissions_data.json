@@ -1,0 +1,17 @@
+{
+	"name": "tr_hospital_admissions_data",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2024-02-14T10:30:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
