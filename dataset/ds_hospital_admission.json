@@ -1,0 +1,21 @@
+{
+	"name": "ds_hospital_admission",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "HttpHospitalAdmissions",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

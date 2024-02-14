@@ -1,0 +1,21 @@
+{
+	"name": "ds_country_response",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "HttpCountryResponse",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
