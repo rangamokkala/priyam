@@ -1,5 +1,5 @@
 {
-	"name": "pl_ingest_cases_and_death",
+	"name": "pl_ingest_ecdc_data",
 	"properties": {
 		"activities": [
 			{
@@ -48,11 +48,11 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "ds_casese_and_death",
+						"referenceName": "ds_ecdc_raw_htttp",
 						"type": "DatasetReference",
 						"parameters": {
 							"relativeURL": {
-								"value": "@variables('sourceRelativeURL')",
+								"value": "@pipeline().parameters.sourceRelativeURL",
 								"type": "Expression"
 							}
 						}
@@ -60,11 +60,11 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "ds_cases_and_death_raw_dl",
+						"referenceName": "ds_ecdc_raw_dl",
 						"type": "DatasetReference",
 						"parameters": {
 							"FileName": {
-								"value": "@variables('sinkFileName')",
+								"value": "@pipeline().parameters.sinkFileName",
 								"type": "Expression"
 							}
 						}

@@ -1,5 +1,5 @@
 {
-	"name": "ds_casese_and_death",
+	"name": "ds_ecdc_raw_htttp",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "Httpcasesanddeaths",

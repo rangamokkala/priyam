@@ -1,5 +1,5 @@
 {
-	"name": "ds_cases_and_death_raw_dl",
+	"name": "ds_ecdc_raw_dl",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "ls_covidadls",
