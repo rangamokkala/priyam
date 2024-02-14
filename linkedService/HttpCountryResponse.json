@@ -1,0 +1,12 @@
+{
+	"name": "HttpCountryResponse",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://raw.githubusercontent.com/cloudboxacademy/covid19/main/ecdc_data/country_response.csv",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
