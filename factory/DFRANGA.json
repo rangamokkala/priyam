@@ -1,0 +1,9 @@
+{
+	"name": "DFRANGA",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b9f91f54-d4cc-4730-900f-73d1703a5082",
+		"tenantId": "0edf2cf5-9d63-4c32-a8de-121cb8e701a6"
+	}
+}
